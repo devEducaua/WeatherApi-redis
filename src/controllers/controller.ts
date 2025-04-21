@@ -5,8 +5,6 @@ import Redis from 'redis'
 
 dotenv.config()
 
-
-
 export const requestData = async (req: Request, res: Response) => {
     const { city } = req.body;
 
